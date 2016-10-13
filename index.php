@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<?php header( 'Location: /index.html' ) ;  ?>
+<html lang="en">
+<head>
+
+<meta charset="utf-8" />
+<title> Vmanalang.com</title>    
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="CSS/stylesheet.css"/>
+</head>
+<script src="JS/slider.js"></script> 
+<body>
+<div class="container">
+    <header id="navbar">
+        <nav >
+            <img style="max-width:350px;max-height:450px;margin-top:50px;" src="Pictures/logo.png"/>
+            <ul>
+                <li><a href="#navbar" class="current">HOME</a></li>
+                <li><a href="#abou">ABOUT ME</a></li>
+                <li><a href="#gallery">GALLERY</a></li>
+                <li><a href="#testi">TESTIMONIALS</a></li>
+                <li><a href="#porf">PORTFOLIO</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="Aboutme2"  style="background-color:#E9E9E9;">
+           
+            <img src="Pictures/midpic.jpg" style=";margin:5px;outline-style:doubled;outline:1px solid white;outline-offset:-9px;"/>
+            
+            
+            <p>I am a marketing student from Far Eastern University-Makati. I am residing in San Pedro, Laguna since I was 7 years old.
+        </p><br>
+            <p>I am a simple guy who wants simple things. I spend almost of my time watching movies, reading interesting articles and doing school works. </p><br>
+    
+            </div>
+   <div  id="abou" style="border-top: 3px solid black;">
+    <h1> About Me </h1>
+    <section class="Aboutme" style="text-align:center;" >
+    
+        <div class="div1">
+        <section>
+           
+            <div class="img1">
+               
+                <img id="immg" style="max-width:300px;max-height-200px;width:250px;height:200px;margin-bottom:65px;outline-style:doubled;outline:1px solid white;outline-offset:-12px;" src="Pictures/car.png"/>
+                <h2>Car guy</h2>
+            </div>
+            <p>I love cars, especially JDM cars. Everytime I see cars like, Honda's on the streets it gives me goosebumps when VTEC kicked in yo!</p>
+            
+           <p> My Favorite is a EG Honda with a B18c GSR DOHC Turbo engine. Because I can use it daily and for track use.</p>
+        </section>
+        </div>
+        <div class="div2">
+        <section>
+            <div class="img2">
+            <img id="game" style="max-width:300px;max-height-200px;width:250px;height:200px;margin-bottom:0px;outline-style:doubled;outline:1px solid white;outline-offset:-12px;" src="Pictures/game.png"/>
+                <p style="visibility:hidden;">Gamer guy</p>
+                </div>
+            <h2>Gamer guy</h2>
+            <p>Back in the days, I used to have my very first console, a PS1. My brothers and i used to play Tekken 3 and we play it almost every-day.</p>
+            
+           <p> Today, I have a PS4 and the graphics is HD where i can feel the gaming experience.</p>
+        </section>
+        </div>
+        <div class="div3">
+        <section>
+             <div class="img3">
+            <img id="shoes" style="max-width:300px;max-height-200px;width:250px;height:200px;margin-bottom:20px;outline-style:doubled;outline:1px solid white;outline-offset:-12px;;" src="Pictures/shoes.png"/>
+            <h2>Shoe guy</h2>
+                </div>
+            <p>My very first Jordan's is a Spiz'ike "Wolf Grey" but i am more of a Vans kind of guy. My shoe collection consist of 5 pairs of Vans, and 5 other brands of shoes.</p>
+        </section>
+        </div>
+    </section>
+ </div>   
+    <div class="clear"></div>
+    
+    <div id="slider" >
+       <img src="Pictures/img1.jpg" id="image" >
+            <div class="left_hold">
+                <img onClick="photo(-1)" class="left" src="Pictures/arrow_left.png">
+            </div>
+            <div class="right_hold">
+                <img onClick="photo(1)" class="right" src="Pictures/arrow_right.png">
+            </div>
+    </div>
+    <div class="clear"></div>
+    
+   <h2 style="font-size:100px;font-family: Brush Script MT, cursive;padding:40px;outline:inherit;text-align:center;margin:50px;" id="gallery">Gallery</h2>
+<div id="container">
+<div id="content">
+<ul>
+<li><a class="fancybox" rel="group" href="Gallery/01.jpg" title="Photos"><img src="Gallery/01.jpg" width="200" height="120" alt=""/></a></li>
+<li><a class="fancybox" rel="group" href="Gallery/02.jpg" title="Photos"><img src="Gallery/02.jpg" width="200" height="120" alt=""/></a></li>
+<li><a class="fancybox" rel="group" href="Gallery/03.jpg" title="Photos"><img src="Gallery/03.jpg" width="200" height="120" alt=""/></a></li>
+<li><a class="fancybox" rel="group" href="Gallery/04.jpg" title="Photos"><img src="Gallery/04.jpg" width="200" height="120" alt=""/></a></li>
+<li><a class="fancybox" rel="group" href="Gallery/05.jpg" title="Photos"><img src="Gallery/05.jpg" width="200" height="120" alt=""/></a></li>
+<li><a class="fancybox" rel="group" href="Gallery/06.jpg" title="Photos"><img src="Gallery/06.jpg" width="200" height="120" alt=""/></a></li>
+<li><a class="fancybox" rel="group" href="Gallery/07.jpg" title="Photos"><img src="Gallery/07.jpg" width="200" height="120" alt=""/></a></li>
+<li><a class="fancybox" rel="group" href="Gallery/08.jpg" title="Photos"><img src="Gallery/08.jpg" width="200" height="120" alt=""/></a></li>
+<li><a class="fancybox" rel="group" href="Gallery/09.jpg" title="Photos"><img src="Gallery/09.jpg" width="200" height="120" alt=""/></a></li>
+<li><a class="fancybox" rel="group" href="Gallery/10.jpg" title="Photos"><img src="Gallery/10.jpg" width="200" height="120" alt=""/></a></li>
+<li><a class="fancybox" rel="group" href="Gallery/11.jpg" title="Photos"><img src="Gallery/11.jpg" width="200" height="120" alt=""/></a></li>
+<li><a class="fancybox" rel="group" href="Gallery/12.jpg" title="Photos"><img src="Gallery/12.jpg" width="200" height="120" alt=""/></a></li>
+<li><a class="fancybox" rel="group" href="Gallery/13.jpg" title="Photos"><img src="Gallery/13.jpg" width="200" height="120" alt=""/></a></li>
+<li><a class="fancybox" rel="group" href="Gallery/14.jpg" title="Photos"><img src="Gallery/14.jpg" width="200" height="120" alt=""/></a></li>
+<li><a class="fancybox" rel="group" href="Gallery/15.jpg" title="Photos"><img src="Gallery/15.jpg" width="200" height="120" alt=""/></a></li>
+<li><a class="fancybox" rel="group" href="Gallery/16.jpg" title="Photos"><img src="Gallery/16.jpg" width="200" height="120" alt=""/></a></li>
+<li><a class="fancybox" rel="group" href="Gallery/17.jpg" title="Photos"><img src="Gallery/17.jpg" width="200" height="120" alt=""/></a></li>
+<li><a class="fancybox" rel="group" href="Gallery/18.jpg" title="Photos"><img src="Gallery/18.jpg" width="200" height="120" alt=""/></a></li>
+<li><a class="fancybox" rel="group" href="Gallery/19.jpg" title="Photos"><img src="Gallery/19.jpg" width="200" height="120" alt=""/></a></li>
+<li><a class="fancybox" rel="group" href="Gallery/20.jpg" title="Photos"><img src="Gallery/20.jpg" width="200" height="120" alt=""/></a></li>
+<li><a class="fancybox" rel="group" href="Gallery/21.jpg" title="Photos"><img src="Gallery/21.jpg" width="200" height="120" alt=""/></a></li>
+<li><a class="fancybox" rel="group" href="Gallery/22.jpg" title="Photos"><img src="Gallery/22.jpg" width="200" height="120" alt=""/></a></li>
+<li><a class="fancybox" rel="group" href="Gallery/23.jpg" title="Photos"><img src="Gallery/23.jpg" width="200" height="120" alt=""/></a></li>
+<li><a class="fancybox" rel="group" href="Gallery/24.jpg" title="Photos"><img src="Gallery/24.jpg" width="200" height="120" alt=""/></a></li>
+<li><a class="fancybox" rel="group" href="Gallery/25.jpg" title="Photos"><img src="Gallery/25.jpg" width="200" height="120" alt=""/></a></li>
+</ul>
+</div>   
+</div>
+   <div class="clear"></div>
+    
+   <div id="testi" style="border-top: 3px solid black;">
+    <h1> Testimonials </h1>
+    <section  style="text-align: center;float:left;display: -webkit-flex; display: flex;text-align: center;" id="abou">
+    
+        <div class="div1">
+        <section>
+                <div class="img1">
+                <img style="max-width:300px;max-height-200px;width:250px;height:200px;margin-bottom:61px;border-radius:70%" src="Pictures/wafu.jpg"/>
+                
+            </div>
+            <p>Vic is one of my closest friends here in Laguna. We laugh alot, go to different places, and drink beer with lemborg. You have a weird love life at the past, eating a leaf and being weird like a 30 year old virgin. Its a pleasure to be your friend since high school. </p>
+        </section>
+            </div>
+            
+        <div class="div2">
+        <section>
+            <div class="img2">
+            <img id="game" style="max-width:300px;max-height-200px;width:250px;height:200px;margin-bottom:60px;border-radius:70%" src="Pictures/ate.jpg"/>
+                </div>
+            <p>Vic is one of my best friends. We have a lot of similarities and a few differences as well. What I like about him is he is transparent and honest. Even though we seldom talk anymore, our friendship didn't change. He's really fun to hangout with and he's such a great guy.  He's been always there for me and I'm very lucky to have him in my life. </p>
+        </section>
+        </div>
+            
+        <div class="div3">
+        <section>
+             <div class="img3">
+            <img id="shoes" style="max-width:300px;max-height-200px;width:250px;height:200px;margin-bottom:18px;border-radius:70%;" src="Pictures/koya.jpg"/>
+            <p style="visibility:hidden;">Shoe guy</p>
+                </div>
+            <p>"Victorious Manalang is your typical "will be there when you need him" type of friend. He is someone who never walks out on a friend who is in dire need of help. He is compassionate, kind and friendly. As one of my best "tropa", he is generally someone who you can laugh with without worrying about what others think. His humor is one of his best traits. As his friend, I truly believe that he deserves the best things in life for as long as he is kind and patient. <i>"Pak Ganern"</i></p>
+        </section>
+        </div>
+        </div> 
+        
+    <div class="clear"></div>
+       
+       
+ >  <div id="porf" style="border-top: 3px solid black;">
+   
+    <section  style="text-align: center;float:left;display: -webkit-flex; display: flex;margin-right:250px;background-color:#E9E9E9;width:100%;" id="abou">
+        <div class="div1" style="margin-right:210px;">
+             <h1> Porfolio </h1>
+        <section>
+                <div class="img1">
+                <img style="max-width:300px;max-height-200px;width:250px;height:200px;margin-bottom:20px;outline-style:thick;outline:1px solid black;margin-right:0px;" src="Pictures/popcola.png"/>
+                <h2 style="text-align:center;font-size:20px;margin-bottom:50px;margin-right:0px;font-size:40px;">Pop Cola Concept</h2>
+            </div>
+            <p  style="text-align:center;font-size:20px;margin-bottom:50px;margin-right:0px;">I created this design for my       Marketing Management subject last sem. <br><br>
+                Pop cola is a carbonated drink here in the 
+                Philippines. But because of its outdated design
+                I have decided that to make it alive using “pop
+                art” that makes it lively using philippine flag colors. </p>
+        </section>
+            </div>
+        </div> 
+    <div class="clear"></div>
+       
+       
+    <div class="contact" style="border-top: 3px solid black;" style="height:300px;">
+        <section class="contactsec">
+                <ul class="social">
+                    <h2 style="color: white;padding-left:20px;font-size:75px;">Contact me</h2>
+                    <li style="color:blue;"><h4></h4>
+                         <a href="https://www.facebook.com/va.mnl?ref=br_tf"><img src="Pictures/fblogo.png" style="max-width:150px;max-height:150px;padding-top:10px;margin-left:350px;"/></a></li>
+
+                    <li style="color:cyan;"><h4></h4>
+                         <a href="https://twitter.com/victhormanalang"/><img src="Pictures/twitterlogo.png" style="max-width:150px;max-height:150px;padding-top:10px;margin-left:350px;"></a></li>
+                    
+                    </ul>
+                   <div class="top">
+                   <h2><a href="#navbar" ><img src="Pictures/toplogo.png"/></h2></a> 
+                   </div>
+        </section>
+    </div>
+    <div class="clear"></div>
+    <footer>
+     <div class="transpabox">      
+        <h4 style="font: Century Gothic;">V.Manalang(c)</h4>  
+        </div>
+    </footer>
+    <!-- Add jQuery library -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<!-- Add mousewheel plugin -->
+<script type="text/javascript" src="Jquery/jquery.mousewheel-3.0.6.pack.js"></script>
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="Jquery/jquery.fancybox.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="Jquery/jquery.fancybox-buttons.css" type="text/css" media="screen" />
+<script type="text/javascript" src="Jquery/jquery.fancybox.pack.js"></script>
+<script src="Jquery/jquery.scrollNav.min.js">
+    $('#abou').scrollNav();    
+</script>
+<script type="text/javascript" src="Jquery/jquery.fancybox-buttons.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+    
+    $(document).on('click', 'a[href^="#"]', function(e) {
+    // target element id
+    var id = $(this).attr('href');
+    
+    // target element
+    var $id = $(id);
+    if ($id.length === 0) {
+        return;
+    }
+    
+    // prevent standard hash navigation (avoid blinking in IE)
+    e.preventDefault();
+    
+    // top position relative to the document
+    var pos = $(id).offset().top;
+    
+    // animated top scrolling
+    $('body, html').animate({scrollTop: pos});
+});
+</script>
+  
+</div>
+</body>
+</html>
